@@ -1,4 +1,5 @@
 FROM ubuntu:22.04
+#FROM --platform=linux/amd64 ubuntu:22.04 use this if the above doesnt work
 
 ENV SQLALCHEMY_DATABASE_URI=sqlite:///:memory:
 

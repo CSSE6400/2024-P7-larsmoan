@@ -1,0 +1,15 @@
+@baseUrl = http://127.0.0.1:6400/api/v1
+
+### Health
+GET {{baseUrl}}/health
+
+### Post a icaljob
+POST {{baseUrl}}/todos/ical
+
+
+### Check status of job
+GET {{baseUrl}}/todos/ical/9727ec76-25d5-463a-aceb-f352197c7812/status
+
+
+### Check result of icaljob
+GET {{baseUrl}}/todos/ical/9727ec76-25d5-463a-aceb-f352197c7812/result
